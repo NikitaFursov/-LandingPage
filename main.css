@@ -27,12 +27,11 @@ body {
 
 .theme h1 {
     text-align: center;
-    margin-top: -14vh;
+    margin-top: -8.5vw;
     color: rgb(255, 255, 255); 
-    font-size: 30px;
+    font-size: 25px;
     font-family: Montserrat, sans-serif;
     text-shadow: 3px 1px 3px #000;
-    max-height: 50px;
 }
 
 .theme h5 {
@@ -43,8 +42,6 @@ body {
     text-shadow: 1px 1px 1px #000;
     height: 5vw;
 }
-
-
 
 .info {
     background-color: rgb(255, 255, 255);
@@ -83,7 +80,8 @@ body {
         letter-spacing: 1.2px !important;
     }
     .theme h1 {
-        font-size: 15px;
-        margin-top: -40px;
+        font-size: 15px !important;
+        margin-top: -40px !important; 
     }
 }
+
