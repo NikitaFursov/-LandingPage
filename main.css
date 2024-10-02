@@ -12,7 +12,7 @@ body {
 }
 
 .logo-title {
-    padding-top: 7px; 
+    padding-top: 12px; 
     text-align: center;
     color: rgb(255, 255, 255); 
     font-size: 18px;
@@ -27,9 +27,9 @@ body {
 
 .theme h1 {
     text-align: center;
-    margin-top: -10.5vh;
+    margin-top: -12.5vh;
     color: rgb(255, 255, 255); 
-    font-size: 25px;
+    font-size: 30px;
     font-family: Montserrat, sans-serif;
     text-shadow: 3px 1px 3px #000;
 }
@@ -76,12 +76,20 @@ body {
         letter-spacing: 1.2px !important;
     }
     .logo-title {
+        padding-top: 15px;
         font-size: 15px !important;
         letter-spacing: 1.2px !important;
     }
     .theme h1 {
-        font-size: 15px !important;
-        margin-top: -40px !important; 
+        font-size: 25px !important;
+        margin-top: -60px !important; 
+    }
+}
+
+@media (max-width: 460px) {
+    .theme h1 {
+        font-size: 25px !important;
+        margin-top: -90px !important; 
     }
 }
 
