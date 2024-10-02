@@ -29,18 +29,18 @@ body {
     text-align: center;
     margin-top: -12.5vh;
     color: rgb(255, 255, 255); 
-    font-size: 30px;
+    font-size: 40px;
     font-family: Montserrat, sans-serif;
-    text-shadow: 3px 1px 3px #000;
+    text-shadow: 4px 4px 4px #000;
 }
 
 .theme h5 {
     text-align: center;
-    margin-top: -15px;
+    margin-top: -25px;
     color: rgb(255, 255, 255); 
     font-family: Montserrat, sans-serif;
-    text-shadow: 1px 1px 1px #000;
-    height: 5vw;
+    text-shadow: 4px 4px 4px #000;
+    font-size: 20px;
 }
 
 .info {
@@ -68,6 +68,12 @@ body {
     border: none;
     border-bottom: 2px solid #8f98a1;
     margin: 1.65em auto;
+}
+
+@media (max-width: 722px) {
+    .theme h1 {
+        margin-top: -145px !important; 
+    }
 }
 
 @media (max-width: 650px) {
